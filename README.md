@@ -54,7 +54,7 @@ Instant summary of total payments and categorized spending.
 
 ##  How It Works :
 
-1. Upload your **bank transaction CSV.
+1. Upload your bank transaction CSV.
 2. The app reads and cleans your data (`Date`, `Amount`, `Details`, `Debit/Credit`).
 3. Transactions are categorized automatically using keywords from `categories.json`.
 4. You can:
@@ -103,8 +103,8 @@ streamlit run app.py
 
 ##  Usage Tips :
 
-* You can **add new categories** directly in the sidebar tab.
-* When you change a transaction’s category, its **details keyword** automatically gets saved for future auto-categorization.
+* You can add new categories directly in the sidebar tab.
+* When you change a transaction’s category, its details keyword automatically gets saved for future auto-categorization.
 * Your custom categories persist in `categories.json`.
 
 ---------------------------------------------------------------------------------------------------------
